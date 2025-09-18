@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f5f7;
+}
+
+.header {
+  background: #fafafa;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header .logo img {
+  height: 42px;
+  margin-right: 8px;
+}
+
+.separator {
+  width: 3px;
+  height: 36px;
+  background: #e6e7e7;
+  margin: 0 4px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  color: #9ca3af;
+  font-size: 28px;
+}
+
+.search-container input {
+  border: none;
+  background: #fafafa;
+  padding: 10px;
+  width: 280px;
+  font-size: 18px;
+}
+
+.search-container input::placeholder {
+  color: #9ca3af;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-name {
+  font-weight: 600;
+  color: #374151;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 32px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.column {
+  width: 400px;
+}
+
+.column h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #363636;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #fafafa;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  color: #5a5a5a;
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: lighter;
+}
+
+.card p {
+  color: #9c9c9c;
+  font-size: 16px;
+  margin: 8px 0 16px;
+}
+
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #9a9a9a;
+  align-items: center;
+}
+
+.task-assignee {
+  background: #4e7eff;
+  color: #fafafa;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.task-assignee.blue {
+  background: #4e7eff;
+}
+
+.task-assignee.light-blue {
+  background: #35cdfb;
+}
+
+.task-assignee.purple {
+  background: #a855f7;
+}
+
+.task-assignee.pink {
+  background: #c234fb;
+}
+
+.task-time.purple {
+  color: #a855f7;
+}
+
+.task-time.green {
+  color: #3fc533;
+}
+
+.task-time.red {
+  color: #fd1e29;
+}

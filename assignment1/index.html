@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="apple-logo.png" alt="Logo" />
+        <div class="separator"></div>
+        <div class="search-container">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" placeholder="Search for .." />
+        </div>
+      </div> 
+      <div class="user">
+        <img
+          src="user-avatar.png"
+          alt="User"
+          style="width: 32px; height: 32px; border-radius: 50%"
+        />
+        <span class="user-name">Analyst User</span>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="column">
+        <h2>Backlog</h2>
+        <div class="card">
+          <h3>Nulla volutpat aliquam velit</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <div class="task-footer">
+            <span class="task-assignee blue">OZ</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Facilisis in pretium nisl aliquet</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <div class="task-footer">
+            <span class="task-assignee pink">LE</span>
+            <span class="task-time red">Two days ago</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Eget porttitor lorem</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <div class="task-footer">
+            <span class="task-assignee light-blue">ME</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <h2>Todo</h2>
+        <div class="card">
+          <h3>Eget porttitor lorem</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <div class="task-footer">
+            <span class="task-assignee purple">AM</span>
+            <span class="task-time purple">Today</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Consectetur dipiscing elit</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <div class="task-footer">
+            <span class="task-assignee blue">OZ</span>
+            <span class="task-time green">In three days</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Nulla volutpat aliquam velit</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <div class="task-footer">
+            <span class="task-assignee pink">LE</span>
+            <span class="task-time green">July 21</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <h2>Done</h2>
+        <div class="card">
+          <h3>Ac tristique libero volutpat at</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <div class="task-footer">
+            <span class="task-assignee pink">LE</span>
+            <span class="task-time">A week ago</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Phasellus iaculis neque</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <div class="task-footer">
+            <span class="task-assignee blue">OZ</span>
+            <span class="task-time">Last Tuesday</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Facilisis in pretium nisl aliquet</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <div class="task-footer">
+            <span class="task-assignee purple">AM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
