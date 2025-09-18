@@ -2,10 +2,10 @@
 
 Responsive shopping cart application built with React, TypeScript, and Redux Toolkit, designed with custom Tailwind CSS components. Product display using FakeStoreAPI and cart management with local persistance storage.
 
-## 🛠 Tech Stack
+## Stack
 
 - **Frontend**: React 19.1.1 + TypeScript
-- **Build Tool**: Vite 7.1.2
+- **Build Tool**: Vite 7.1.2 + SWC
 - **State Management**: Redux Toolkit 2.9.0 + RTK Query
 - **Routing**: React Router 7.9.1
 - **Styling**: Tailwind CSS 4.1.13
@@ -108,7 +108,7 @@ export const productApi = createApi({
 
 ## Testing 
 
-**Framework**: Vitest (Jest) + React Testing Library
+Vitest (Jest) + React Testing Library
 
 ### 1. Empty Cart State
 - Displays appropriate empty cart messaging
@@ -139,23 +139,18 @@ export const productApi = createApi({
 - Final total computation
 - Checkout button state management
 
-### 6. Integration Testing
-- Component interaction verification
-- Redux state synchronization
-- User workflow validation
+## Custom Components & Hooks
 
-## Custom Tailwind CSS Components & Hooks
-
-### Core Cart Components
+### Cart Components
 - **CartHeader**: Multi-item selection management with "Select All" functionality
 - **CartItem**: Individual cart item with quantity controls, selection, and removal
 - **CartSummary**: Real-time order calculations with tax and shipping logic
-- **AddToCartButton**: Enhanced button with flying animation effect
 
-### Product Display Components
+### Product Components
 - **ProductCard**: Responsive product grid items with ratings and category tags
 - **ProductDetail**: Comprehensive product view with quantity selector
 - **StarRating**: Configurable star rating display component
+- **AddToCartButton**: Enhanced button with flying animation effect
 
 ### Loading & Error States
 - **ProductGridSkeleton**: Animated loading placeholders for product grids
