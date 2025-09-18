@@ -1,1 +1,0 @@
-# ensign_take_home
